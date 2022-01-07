@@ -43,39 +43,95 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
-.middle{
+/*end of section 1 here*/
+/*start of section 2 here*/
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.parent {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .all-columns{
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
-    text-align: center;
-    padding: 20px;
-}
-.photo img {
-    width:50%
-}
-.goal{
-    border: 5px solid white;
-    background-color: thistle;
-    box-shadow: 4px 4px 12px grey;
+  }
+  .column {
+    width: 300px;
     border-radius: 5px;
-}
+    box-shadow: 4px 4px 12px grey;
+  }
+  .photo img {
+    width: 50%;
+  }
+  .second-section {
+    padding: 10px;
+  }
+
+  .description {
+    text-align: left;
+  }
+  .pink{
+      background-color: pink;
+  }
+  .peach{
+      background-color: peachpuff;
+  }
+  .skyblue{
+      background-color: skyblue;
+  }
+  /*.div-btn {
+    padding: 10px 30px;
+    border: none;
+    background-color: aqua;
+    font: 16px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .flexible-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(images/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-image: url()
+}
+.text{
+    font-size: 40px;
+    font-weight: 700;
 }
 .third{
-    width: 400px;
-    height: 400px;
+    width: 50%;
     margin-top: 50px;
     margin-right: 5%;
     padding-right: 2%
 }
 .third img{
-    width: 80%;
+    width: 400px;
+    height: 400px;
 }
 .third-half{
     width: 50%;
